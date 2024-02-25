@@ -1,0 +1,20 @@
+.HDD{
+background-color: #323946;
+
+
+}
+
+.anch{
+
+    a {
+        text-decoration: none; /* Remove underline */
+        color: #0ef; /* Set default text color */
+      }
+      
+      /* Apply styles on hover */
+      a:hover {
+        text-decoration: none; /* Remove underline on hover */
+        color: black; /* Change text color to black */
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a glow effect */
+      }
+}

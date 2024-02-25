@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+ 
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  background-color: #1f242d; /* Set main body background color */
+  color: white; /* Set text color */
+}
+
+.container {
+  background-color: #323946; /* Set background color for containers */
+  color: white; /* Set text color */
+  padding: 20px; /* Add padding */
+  border-radius: 5px; /* Add border radius */
+}
+
+.btn {
+  color: white; /* Set button text color */
+}
+
+.btn-danger {
+  background-color: #dc3545; /* Set danger button background color */
+}
+
+.btn-success {
+  background-color: #28a745; /* Set success button background color */
+}
+
+.form-label {
+  color: white; /* Set form label text color */
+}
+
+.form-control {
+  background-color: #424a5b; /* Set form control background color */
+  color: white; /* Set form control text color */
+  border-color: #6c757d; /* Set form control border color */
+}
+
+hr {
+  border-top-color: #424a5b; /* Set horizontal rule color */
+}
+
